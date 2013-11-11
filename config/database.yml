@@ -9,8 +9,8 @@ development:
   reconnect: false
   database: tst
   pool: 5
-  username: root
-  password: 2726607
+  username: 
+  password: 
   socket: /var/run/mysqld/mysqld.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -22,8 +22,8 @@ test:
   reconnect: false
   database: tst
   pool: 5
-  username: root
-  password: 2726607
+  username: 
+  password: 
   socket: /var/run/mysqld/mysqld.sock
 
 production:
@@ -32,6 +32,6 @@ production:
   reconnect: false
   database: tst
   pool: 5
-  username: root
-  password: 2726607
+  username: 
+  password: 
   socket: /var/run/mysqld/mysqld.sock
