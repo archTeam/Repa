@@ -53,4 +53,5 @@ Tst::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  get '/blog', to: 'blog#index', as: 'blog'
 end
