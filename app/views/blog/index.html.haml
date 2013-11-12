@@ -1,0 +1,5 @@
+- if @name
+  = "hello #{@name}"
+  = link_to "Change name", '/exit'
+- else
+  = render 'form'

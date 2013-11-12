@@ -54,4 +54,7 @@ Tst::Application.routes.draw do
   #     resources :products
   #   end
   get '/blog', to: 'blog#index', as: 'blog'
+  post '/example', to: 'blog#example'
+  get '/exit', to: 'blog#exit'
+  root to: 'blog#index'
 end
